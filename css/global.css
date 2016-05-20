@@ -38,7 +38,7 @@ body {
 .main-container .inner-container .container-50-50 {
 	float: left;
 	width: 50%;
-	
+
 }
 
 .main-container .inner-container .container-50-50 h3 {
@@ -60,7 +60,7 @@ body {
 	float: left;
 	width: 100%;
 	border-top: 1px solid black;
-	
+
 }
 
 .main-container .inner-container .logo {
@@ -69,7 +69,8 @@ body {
 }
 
 .inner-container {
-	width: 80%;
+	width: 100%;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -139,7 +140,7 @@ body {
 }
 
 
-.person-image { 
+.person-image {
 }
 
 .logoBlue {
@@ -150,11 +151,3 @@ body {
 .side-padding {
 	padding: 0 30px 0 30px;
 }
-
-
-
-
-
-
-
-
