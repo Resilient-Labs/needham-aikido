@@ -155,4 +155,6 @@ body {
 	font-weight: bold;
 }
 
-
+.resilient-footer-copy:hover {
+	color: white;
+}

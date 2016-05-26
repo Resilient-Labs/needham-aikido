@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Needham Newton Aikido</title>
 	<link rel="stylesheet" type="text/css" href="../css/global.css">
 	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -14,7 +15,8 @@
 </head>
 <body>
 
-	<nav> 
+<a class="hamburgerMenuIcon" onclick="return false;" href=""><i class="fa fa-bars" aria-hidden="false"></i></a>
+	<nav class="topnav">
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="classes.html">Classes</a></li>
@@ -63,54 +65,45 @@
 	<div class="main-container">
 		<div class="inner-container">
 			<h2 class="price-text">Club Dues</h2>
-			
 
-				<div id="left">
-					<h5 class="pricing-plan">Budget Pricing Plan</h5>
-					<p class="price">$60 a month(, with a family/student rate of $35 per member)</p>
-					<p class="feature-text"> Club Dues.</p>
-					<button class="signup-button">Sign Up</button>
+			<p class="side-padding disclaimer-text">
+				The Needham / Newton Aikido Club is not a for-profit business,
+				and dues are used to provide a clean and safe training space,
+				and to provide opportunities for club members to train at seminars and special events.
+			</p>
+
+				<div class="club-dues">
+					<h5 class="pricing-plan">Regular Rate</h5>
+					<p class="price">$60 a month (, with a family/student rate of $35 per member)</p>
 				</div>
-				
-				<div id="middle">
-					<h5 class="pricing-plan">Recommended Pricing Plan</h5>
-					<p class="price">$50(/$30) per month</p>
-					<p class="feature-text">Discounted rates for 3 month membership or more.</p>
-					<button class="signup-button button-color">Sign Up</button>
+
+				<div class="club-dues">
+					<h5 class="pricing-plan">Discount Rates</h5>
+					<p class="price">For 3 month membership or more: $50(/$30) per month</p>
 				</div>
-				
-				<div id="right">
-					<h5 class="pricing-plan">Premium Pricing Plan</h5>
-					<p class="price">$10 per class(, or $5 for families/students).</p>
-					<p class="feature-text">Drop-in rates.</p>
-					<button class="signup-button">Sign Up</button>
+
+				<div class="club-dues">
+					<h5 class="pricing-plan">Drop-in Rates</h5>
+					<p class="price">$10 per class (, or $5 for families/students).</p>
 				</div>
 
 		</div>
 	</div>
 
-	<footer class="site-footer">
+	<footer class="site-footer"> <!-- site-footer -->
 		<div class="lightblue footer-bottom">
 			<p>Needham / Newton Aikido Club | Email: needhamaikido@gmail.com | Phone: 617-564-3527 &#xA9; 2016</p>
 			<p> Built by a <a target="_blank" href="http://www.resilientcoders.org" class="resilient-footer-copy">Resilient Coder</a></p>
 		</div>
-	</footer>
-	<!--<footer class="site-footer">-->
-	<!--<div class="white footer-top">-->
-	<!--<img class="Aikido_logo" src="../img/needham_aikido_footer-02.png">-->
-	<!--</div>-->
-	<!--<div class="lightblue footer-bottom">-->
-	<!--<p>NeedHam / Aikido Club | Email: needhamaikido@gmail.com | Phone: 617-564-3527 &#xA9; 2016</p>-->
-	<!--</div>-->
-	<!--</footer>-->
+	</footer> <!-- site-footer -->
 
 	<script type="text/javascript">
-    $(document).ready(function () {
-    $(".hamburgerMenuIcon").click(function () {
-      $(".botnav").toggle();
-    });
-  });
-  </script>
+		$(document).ready(function () {
+			$(".hamburgerMenuIcon").click(function () {
+				$(".topnav").toggle();
+			});
+		});
+	</script>
 
 </body>
 </html>

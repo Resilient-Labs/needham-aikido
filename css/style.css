@@ -62,7 +62,7 @@ ul {
 
 
 li {
-	font-family: myFirstFont;
+	font-family: NA-Aller;
     display: inline;
     margin: 10px 35px 10px 0;
     list-style: none;
@@ -151,7 +151,7 @@ iframe {
 }
 
 @font-face {
-    font-family: myFirstFont;
+    font-family: NA-Aller;
     src: url(../fonts/Aller_Lt.ttf);
 }
 
@@ -181,7 +181,7 @@ iframe {
 .main-container .inner-container p {
 	text-align: left;
 	margin: 50px 0;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 }
 .main-container .inner-container #what-people-say {
 	text-align: center;
@@ -189,7 +189,7 @@ iframe {
 .main-container .inner-container #what-people-say p {
 	margin-left: 0;
 	text-align: center;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 }
 
 .main-container .inner-container #what-people-say div {
@@ -208,7 +208,7 @@ iframe {
 .main-container .inner-container .right-container p {
 	padding: 0 30px 0 30px;
 	text-align: left;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 }
 
 
@@ -308,7 +308,7 @@ i.fa-bars {
 
 .center-item {
 	color: white;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 	text-align: center;
 	width: 100%;
 	font-size: 25pt;
@@ -471,14 +471,14 @@ i.fa-bars {
 
 .main-container .inner-container .feature h4 {
 	text-align: left;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 	padding: 0 30px 0 30px;
 	font-size: 17pt;
 }
 
 .main-container .inner-container .feature p {
 	text-align: left;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 	text-align: left;
 	padding: 0 30px 0 30px;
 }
@@ -498,7 +498,7 @@ i.fa-bars {
 
 .main-container .inner-container .text-center {
     font-size: 25pt;
-    font-family: myFirstFont;
+    font-family: 'Roboto Slab', serif;
  	text-align: left;
  	padding: 0 30px 0 30px;
 }
@@ -624,18 +624,18 @@ body {
 h1 {
 	text-align: left;
     font-size: 35pt;
-    font-family: myFirstFont;
+    font-family: 'Roboto Slab', serif;
     padding: 0 30px 0 30px;
 }
 
 h3 {
 	text-align: center;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 }
 
 p {
 	text-align: center;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 }
 
 hr {
@@ -684,37 +684,37 @@ button {
 }
 
 .pricing-plan {
-	text-align: center;
+	text-align: left;
 	font-style: normal;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 	font-size: 15pt;
 }
 
 .main-container .inner-container #left .price {
 	margin: 0;
 	text-align: center;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 	font-size: 15pt;
 }
 
 .main-container .inner-container #middle .price {
 	margin: 0;
 	text-align: center;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 	font-size: 15pt;
 }
 
 .main-container .inner-container #right .price {
 	margin: 0;
 	text-align: center;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 	font-size: 15pt;
 }
 
 .main-container .inner-container #left .feature-text {
 	margin: 0;
 	text-align: center;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 	font-size: 13pt;
 	margin-top: 20px;
 }
@@ -722,7 +722,7 @@ button {
 .main-container .inner-container #middle .feature-text {
 	margin: 0;
 	text-align: center;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 	font-size: 13pt;
 	margin-top: 20px;
 }
@@ -730,7 +730,7 @@ button {
 .main-container .inner-container #right .feature-text {
 	margin: 0;
 	text-align: center;
-	font-family: myFirstFont;
+	font-family: NA-Aller;
 	font-size: 13pt;
 	margin-top: 20px;
 }
@@ -750,11 +750,6 @@ button {
 
 .center {
 	text-align: center;
-}
-
-.font-family {
-	font-family: myFirstFont;
-	font-style: italic;
 }
 
 .fa-map-marker {
@@ -904,4 +899,24 @@ button {
 	.side-padding {
 		padding: 0 30px 0 30px;
 	}
+}
+
+.club-dues {
+	height: 300px;
+	width: 27%;
+	padding: 20px;
+	margin: 10px;
+	float: left;
+}
+
+.disclaimer-text {
+	width: 60%;
+}
+
+.internal-link {
+	color: #5C88DA;
+}
+
+.internal-link:hover {
+
 }

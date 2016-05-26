@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Needham Newton Aikido</title>
 	<link rel="stylesheet" type="text/css" href="../css/global.css">
 	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -13,7 +14,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
 <body>
 
-	<nav>
+<a class="hamburgerMenuIcon" onclick="return false;" href=""><i class="fa fa-bars" aria-hidden="true"></i></a>
+	<nav class="topnav">
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="classes.html">Classes</a></li>
@@ -71,31 +73,20 @@
 		</div>
 	</div>
 
-
-
-	<footer class="site-footer">
+	<footer class="site-footer"> <!-- site-footer -->
 		<div class="lightblue footer-bottom">
 			<p>Needham / Newton Aikido Club | Email: needhamaikido@gmail.com | Phone: 617-564-3527 &#xA9; 2016</p>
 			<p> Built by a <a target="_blank" href="http://www.resilientcoders.org" class="resilient-footer-copy">Resilient Coder</a></p>
 		</div>
-	</footer>
-	<!--<footer class="site-footer">-->
-	<!--<div class="white footer-top">-->
-	<!--<img class="Aikido_logo" src="../img/needham_aikido_footer-02.png">-->
-	<!--</div>-->
-	<!--<div class="lightblue footer-bottom">-->
-	<!--<p>NeedHam / Aikido Club | Email: needhamaikido@gmail.com | Phone: 617-564-3527 &#xA9; 2016</p>-->
-	<!--</div>-->
-	<!--</footer>-->
-
+	</footer> <!-- site-footer -->
 
 	<script type="text/javascript">
-    $(document).ready(function () {
-    $(".hamburgerMenuIcon").click(function () {
-      $(".botnav").toggle();
-    });
-  });
-  </script>
+		$(document).ready(function () {
+			$(".hamburgerMenuIcon").click(function () {
+				$(".topnav").toggle();
+			});
+		});
+	</script>
 
 
 
