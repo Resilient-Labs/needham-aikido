@@ -281,6 +281,10 @@ i.fa-bars {
     display: inline-block;
   }
 
+  .topnav {
+  	display: none;
+  }
+
   li {
   	display: flex;
   }
