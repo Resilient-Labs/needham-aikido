@@ -2,8 +2,7 @@ nav {
 	background-color: #fff;
 	border-bottom: 1px solid #EFEFEF;
 	width: 100%;
-	float: left;
-	padding: 20px 0;
+	padding: 5px 0;
 	/* box-shadow: 0px 3px 8px rgba(68,68,68,.8); */
 }
 
@@ -54,7 +53,9 @@ button {
 }
 
 ul {
-	text-align: left;
+	padding: 5px 0;
+	margin: 0 auto;
+	text-align: right;
 	display: block;
 	max-width: 1000px;
 
@@ -82,6 +83,10 @@ iframe {
 
 a.active { 
 	color: #5C88DA;
+}
+
+i.fa-facebook-official {
+	font-size: 1.3em;
 }
 
 .connect {
@@ -183,9 +188,14 @@ a.active {
 	border-top: none;
 }
 
+.feature {
+	float: left;
+	width: 33.3%;
+}
+
 .main-container .inner-container p {
 	text-align: left;
-	font-size: 11pt;
+	font-size: 12pt;	
 }
 .main-container .inner-container #what-people-say {
 	text-align: center;
@@ -205,13 +215,13 @@ a.active {
 
 
 .give-padding {
-	padding: 20px 0;
+	padding: 0 0 20px 0;
 }
 
 .main-container .inner-container .right-container p {
 	padding: 0 30px 0 30px;
 	text-align: left;
-	font-size: 11pt;
+	font-size: 12pt;
 }
 
 
@@ -486,28 +496,29 @@ i.fa-bars {
 	background-color: gray;
 }
 
-.feature {
-	float: left;
-	width: 33.3%;
-}
 
-.main-container .inner-container .feature .fa-bolt {
+.main-container .inner-container .about-feature .fa-bolt {
 	font-size: 100px;
 	text-align: center;
 	width: 100%;
 }
 
-.main-container .inner-container .feature h4 {
+.main-container .inner-container .about-feature h4 {
 	text-align: left;
 	padding: 0 30px 0 30px;
 	font-size: 17pt;
 	font-family: 'Roboto Slab', serif;
 }
 
-.main-container .inner-container .feature p {
+.main-container .inner-container .about-feature p {
 	text-align: left;
 	padding: 0 30px 0 30px;
-	font-size: 11pt;
+	font-size: 12pt;
+}
+
+.about-feature {
+	float: left;
+	width: 100%;
 }
 
 
@@ -531,7 +542,6 @@ i.fa-bars {
 
 .main-container .inner-container .text-size {
 	font-size: 12pt;
-	font-size: 11pt;
 }
 
 
