@@ -15,17 +15,29 @@
 </head>
 <body>
 
-<a class="hamburgerMenuIcon" onclick="return false;" href=""><i class="fa fa-bars" aria-hidden="false"></i></a>
-	<nav class="topnav">
-		<ul>
+	<a class="hamburgerMenuIcon" onclick="return false;" href=""><i class="fa fa-bars" aria-hidden="false"></i></a>
+	<nav>
+		<div id="logo"></div>
+		<label for="drop" class="toggle"><i class="fa fa-bars" aria-hidden="true"></i></label>
+		<input type="checkbox" id="drop" />
+		<ul class="menu">
 			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a class="active">Schedule</a></li>
+			<li> 
+				<!-- First Tier Drop Down -->
+				<label for="drop-1" class="toggle">About +</label>
+				<a href="about.html">About</a>
+				<input type="checkbox" id="drop-1"/>
+				<ul>
+					<li><a href="mission.html">Mission</a></li>
+					<li><a href="instructors.html">Instructors</a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</li>
+			<li><a href="schedule.html">Schedule</a></li>
 			<li><a href="location.html">Location</a></li>
-			<li><a href="instructors.html">Instructors</a></li>
 			<li><a href="classes.html">Classes</a></li>
 			<li><a href="events.html">Events</a></li>
-			<i class="fa fa-facebook-official" aria-hidden="true"></i>
+			<li><a target='_blank' href="https://www.facebook.com/needham.newton.aikido"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
 		</ul>
 	</nav>
 
@@ -35,49 +47,49 @@
 			<h1 class="pricing-plan">Schedule</h1>
 			<p class="side-padding">Members are encouraged to attend as many classes as they like. Visitors are welcome at any of our scheduled classtimes. </p>
 			<div class="container-50-50">
-			<h3 class="pricing-plan">Evening Classes:</h3>
-			<p>	
-				Monday 6:30-8:00 PM 
-				<br>
-				Wednesday 6:30-8:00 PM
-				<br> 
-				Thursday 6:30-8:00 PM 
-				<br>
-				evening classes are broken into two 45-minute segments. 
-			</p>
-			<h3 class="pricing-plan">Morning Classes:</h3>
-			<p>
-				Tuesday 7:00-8:00 AM 
-				<br>
-				Thursday 7:00-8:00 AM 
-				<br>
-				Friday 7:00-8:00 AM (starting Jan 2013!) 
+				<h3 class="pricing-plan">Evening Classes:</h3>
+				<p>	
+					Monday 6:30-8:00 PM 
+					<br>
+					Wednesday 6:30-8:00 PM
+					<br> 
+					Thursday 6:30-8:00 PM 
+					<br>
+					evening classes are broken into two 45-minute segments. 
+				</p>
+				<h3 class="pricing-plan">Morning Classes:</h3>
+				<p>
+					Tuesday 7:00-8:00 AM 
+					<br>
+					Thursday 7:00-8:00 AM 
+					<br>
+					Friday 7:00-8:00 AM (starting Jan 2013!) 
 				</p>
 			</div>
 			
 			<div class="container-50-50">
-			<h3 class="pricing-plan">Club Dues</h3>
+				<h3 class="pricing-plan">Club Dues</h3>
 
-			<p class="side-padding disclaimer-text">
-				The Needham / Newton Aikido Club is not a for-profit business,
-				and dues are used to provide a clean and safe training space,
-				and to provide opportunities for club members to train at seminars and special events.
-			</p>
-			<p>Occasionally, club members will get together for additional training in the mornings and on weekends. Please let us know if you'd be interested in attending other class times - we may already be there! 
-			<br>
-			<br>
-			Please arrive 5-10 minutes in advance of class time so that we can start on time. Because we share an exterior entrance with other businesses, the exterior door will be closed at the start of class. If you are late for class, please just ring the doorbell and someone will let you in.</p>
-			
+				<p class="side-padding disclaimer-text">
+					The Needham / Newton Aikido Club is not a for-profit business,
+					and dues are used to provide a clean and safe training space,
+					and to provide opportunities for club members to train at seminars and special events.
+				</p>
+				<p>Occasionally, club members will get together for additional training in the mornings and on weekends. Please let us know if you'd be interested in attending other class times - we may already be there! 
+					<br>
+					<br>
+					Please arrive 5-10 minutes in advance of class time so that we can start on time. Because we share an exterior entrance with other businesses, the exterior door will be closed at the start of class. If you are late for class, please just ring the doorbell and someone will let you in.</p>
 
-				
+
+
+				</div>
 			</div>
 		</div>
-	</div>
 
 
-	<div class="main-container">
-		<div class="inner-container">
-			<div class="club-dues">
+		<div class="main-container">
+			<div class="inner-container">
+				<div class="club-dues">
 					<h5 class="pricing-plan">Regular Rate</h5>
 					<p class="price">$60 a month (, with a family/student rate of $35 per member)</p>
 				</div>
@@ -92,23 +104,15 @@
 					<p class="price">$10 per class (, or $5 for families/students).</p>
 				</div>
 
+			</div>
 		</div>
-	</div>
 
-	<footer class="site-footer"> <!-- site-footer -->
-		<div class="lightblue footer-bottom">
-			<p>Needham / Newton Aikido Club | Email: needhamaikido@gmail.com | Phone: 617-564-3527 &#xA9; 2016</p>
-			<p> Built by <a target="_blank" href="http://www.resilientcoders.org" class="resilient-footer-copy">Resilient Coders</a></p>
-		</div>
-	</footer> <!-- site-footer -->
-
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$(".hamburgerMenuIcon").click(function () {
-				$(".topnav").toggle();
-			});
-		});
-	</script>
+		<footer class="site-footer"> <!-- site-footer -->
+			<div class="lightblue footer-bottom">
+				<p>Needham / Newton Aikido Club | Email: needhamaikido@gmail.com | Phone: 617-564-3527 &#xA9; 2016</p>
+				<p> Built by <a target="_blank" href="http://www.resilientcoders.org" class="resilient-footer-copy">Resilient Coders</a></p>
+			</div>
+		</footer> <!-- site-footer -->
 
 </body>
 </html>
