@@ -1,22 +1,3 @@
-nav {
-	background-color: #fff;
-	border-bottom: 1px solid #EFEFEF;
-	width: 100%;
-	padding: 5px 0;
-	/* box-shadow: 0px 3px 8px rgba(68,68,68,.8); */
-}
-
-nav ul p {
-	display: inline;
-
-}
-
-a {
-	color: black;
-	list-style: none;
-	text-decoration: none;
-}
-
 span {
 	margin-right: 5px;
 }2
@@ -52,24 +33,6 @@ button {
 	display: block;
 }
 
-ul {
-	padding: 5px 0;
-	margin: 0 auto;
-	text-align: right;
-	display: block;
-	max-width: 1000px;
-
-}
-
-
-li {
-	font-family: NA-Aller;
-    display: inline;
-    margin: 10px 35px 10px 0;
-    list-style: none;
-    text-decoration: none;
-}
-
 img {
 	width: 100%;
 	height: auto;
@@ -80,10 +43,6 @@ iframe {
 	display: block;
 }
 
-
-a.active { 
-	color: #5C88DA;
-}
 
 i.fa-facebook-official {
 	font-size: 1.3em;
@@ -283,39 +242,6 @@ i.fa-bars {
 }
 
 
-@media (max-width: 640px) {
-
-  .hamburgerMenuIcon {
-    padding: 5px 15px;
-    line-height: 40px;
-    display: inline-block;
-  }
-
-  .topnav {
-  	display: none;
-  }
-
-  li {
-  	display: flex;
-  }
-
-  a {
-  	margin: 0 auto;
-  }
-
-  ul {
-  	text-align: center;
-  	margin: 0 auto;	
-  }
-
-}
-
-
-
-
-
-
-
 .fa-user:before {
     content: "\f007";
     font-size: 50pt;
@@ -469,11 +395,6 @@ i.fa-bars {
 
 	.main-container .inner-container .right-container p {
 	}
-
-	ul {
-		text-align: center;
-		margin: 0 auto;
-	}
 }
 
 
@@ -552,14 +473,6 @@ i.fa-bars {
 
 @media (max-width: 980px) {
 	img {
-	}
-
-	nav {
-		width: 100%;
-	}
-
-	ul {
-		padding: 0;
 	}
 
 	h2 {
@@ -719,6 +632,12 @@ button {
     margin-bottom: 30px;
 }
 
+.main-container .inner-container .container-50-50 .pricing-plan {
+	text-align: left;
+	font-style: normal;
+	font-size: 15pt;
+}
+
 .pricing-plan {
 	text-align: left;
 	font-style: normal;
@@ -811,16 +730,7 @@ button {
 @media (max-width: 980px) {
 	img {
 	}
-
-	nav {
-		width: 100%;
-		display: inline-flex;
-	}
-
-	ul {
-		display: inline;
-		padding-left: 4%;
-	}	
+	
 
 	h1 {
 		padding: 0 30px 0 30px;
@@ -951,3 +861,195 @@ button {
 .internal-link:hover {
 
 }
+
+/*=======Location========*/
+
+.location-container {
+	display: flex;
+    align-items: center;
+    min-height: 85vh;
+}
+
+/* =================
+   Author's custom styles
+   ================= */
+
+@import url(http://fonts.googleapis.com/css?family=roboto);
+
+h3 a { color: #FFF; }
+
+a { color: #FFF; }
+
+h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 60px;
+  line-height: 70px;
+  font-family: 'roboto', sans-serif;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 890px;
+}
+
+p { text-align: center; }
+ .toggle, [id^=drop] {
+ display: none;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+}
+
+#logo {
+  display: block;
+  padding: 0 30px;
+  float: left;
+  font-size: 20px;
+  line-height: 60px;
+}
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+}
+
+nav a {
+  display: block;
+  padding: 0 20px;
+  color: #000;
+  font-size: 18px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+nav ul li ul li:hover { background-color: #efefef; }
+
+nav a:hover { color: #5C88DA; background-color: #efefef; }
+
+nav ul ul {
+    z-index: 100;
+    display: none;
+    position: absolute;
+    top: 40px;
+}
+
+nav ul li:hover > ul { display: inherit; }
+
+nav ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+  background-color: #fff;
+}
+
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+
+li > a:after { content: ' +'; }
+
+li > a:only-child:after { content: ''; }
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+
+#logo {
+  display: block;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  float: none;
+}
+
+nav { margin: 0; }
+
+.toggle + a,
+ .menu { display: none; }
+
+.toggle {
+  display: block;
+  padding: 0 20px;
+  color: #000;
+  font-size: 18px;
+  line-height: 40px;
+  text-decoration: none;
+  border: none;
+}
+
+.toggle:hover { background-color: #efefef; }
+
+[id^=drop]:checked + ul { display: block; }
+
+nav ul li {
+  display: block;
+  width: 100%;
+}
+
+nav ul ul .toggle,
+ nav ul ul a { padding: 0 40px; }
+
+nav ul ul ul a { padding: 0 80px; }
+
+nav a:hover,
+ nav ul ul ul a {  }
+
+nav ul li ul li .toggle,
+ nav ul ul a {  }
+
+nav ul ul {
+  float: none;
+  position: static;
+  color: #ffffff;
+}
+
+nav ul ul li:hover > ul,
+nav ul li:hover > ul { display: none; }
+
+nav ul ul li {
+  display: block;
+  width: 100%;
+}
+
+nav ul ul ul li { position: static;
+
+}
+}
+
+@media all and (max-width : 330px) {
+
+nav ul li {
+  display: block;
+  width: 94%;
+}
+
+}
+
+
+/* =================
+   Helper classes
+   ================= */
