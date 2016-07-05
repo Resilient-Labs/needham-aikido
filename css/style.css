@@ -61,6 +61,8 @@ span {
 		float: left;
 		width: 50%;
 		margin: 20px 0;
+		max-height: 400px;
+		overflow: hidden;
 	}
 
 	.right-container {
