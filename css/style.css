@@ -152,6 +152,10 @@ span {
 		width: 33.3%;
 	}
 
+	.feature p {
+		margin-right: 20px;
+	}
+
 	.main-container .inner-container p {
 		text-align: left;
 		font-size: 12pt;	
@@ -467,7 +471,9 @@ i.fa-bars {
 
 
 
-
+.main-container .inner-container .feature h4 {
+	font-size: 1.1em;
+}
 
 
 
@@ -489,7 +495,7 @@ i.fa-bars {
 	}
 
 	.main-container .inner-container .feature h4 {
-		padding: 0 30px 0 30px;
+		padding: 0 30px 0 30px; 
 	}
 
 
@@ -747,6 +753,10 @@ button {
 		text-align: center;
 	}
 
+	.feature h4 {
+		font-size: 1.5em;
+	}
+
 	.main-container .inner-container .feature p {
 		padding: 0 30px 0 30px;
 	}
@@ -861,6 +871,26 @@ button {
 .internal-link:hover {
 
 }
+/*=======Etiquette========*/
+
+b {
+	color: #5C88DA;
+}
+
+.etiquette-title {
+	width: 100%;
+	font-size: 1.3em;
+}
+
+.etiquette-container {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
 
 /*=======Location========*/
 
@@ -869,6 +899,7 @@ button {
 	align-items: center;
 	min-height: 85vh;
 }
+
 @media (min-width: 0px) and (max-width: 480px) {
 	.location-container {
 		flex-direction: column;
