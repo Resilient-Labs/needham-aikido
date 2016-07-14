@@ -1,6 +1,6 @@
 span {
 	margin-right: 5px;
-	}2
+	}
 
 	h1 {
 		font-size: 30pt;
@@ -891,6 +891,10 @@ b {
 	flex-wrap: wrap;
 }
 
+.etiquette-container h4 {
+	font-family: Roboto Slab, serif;
+}
+
 
 
 
@@ -946,7 +950,9 @@ b {
    	margin: 0;
    	padding: 0;
    	z-index: 100;
-   }
+	border-bottom: 1px #eee solid;
+	   font-family: 'Roboto', sans-serif;
+}
 
    #logo {
    	display: block;
